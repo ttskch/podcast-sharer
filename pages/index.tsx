@@ -5,5 +5,9 @@ const AppLayout = dynamic(() => import('../components/templates/layout'), {
 })
 
 export default function Home() {
-  return <AppLayout>Content</AppLayout>
+  return (
+    <AppLayout>
+      <span className="text-lg">Content</span>
+    </AppLayout>
+  )
 }
